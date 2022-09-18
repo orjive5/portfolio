@@ -1,0 +1,147 @@
+.profile {
+  margin-block: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  align-items: center;
+  max-width: 600px;
+}
+
+.header-info {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.photo-frame {
+  width: 215px;
+  height: 215px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 4px solid #f8efd4;
+  box-sizing: border-box;
+}
+
+.profile-pic {
+  width: 230%;
+  position: relative;
+  right: 180px;
+  bottom: 30px;
+  object-fit: cover;
+}
+
+.primary-info {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.primary-info h1 {
+  font-family: 'Big Shoulders Text', cursive;
+  font-size: 3rem;
+}
+
+.primary-info h2 {
+  font-size: 1.5rem;
+}
+
+.profile-icons {
+  display: flex;
+  gap: 5px;
+}
+
+.social-icon {
+  cursor: pointer;
+  color: #f8efd4;
+  width: 36px;
+  transition: all 0.3s ease-in-out;
+}
+
+.linkedin-icon:hover {
+  color: #0072b1;
+}
+
+.github-icon:hover {
+  color: white;
+}
+
+.instagram-icon:hover {
+  opacity: 0;
+}
+
+.instagram-icon-gradient {
+  position: relative;
+  right: 41px;
+  z-index: -1;
+}
+
+.instagram-icon-gradient:hover {
+  opacity: 1;
+  z-index: 1;
+}
+
+.profile p {
+  font-size: 1.3rem;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.profile button {
+  background-color: transparent;
+  border: 2px solid #f8efd4;
+  border-radius: 4px;
+  color: #f8efd4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.3rem;
+  font-weight: 500;
+  font-family: 'Dosis', sans-serif;
+  padding: 15px 25px;
+  gap: 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+.profile button:hover {
+  cursor: pointer;
+  background-color: #f8efd4;
+  color: #1b1b1b;
+}
+
+.download-icon:hover {
+  fill: #1b1b1b;
+}
+
+.download-cv {
+  text-decoration: none;
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width: 700px) {
+  .header-info {
+    flex-direction: column;
+  }
+
+  .primary-info {
+    align-items: center;
+  }
+
+  .profile-icons {
+    margin-left: 41px;
+  }
+
+  .primary-info h1 {
+    text-align: center;
+  }
+  /* .header-info {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+  } */
+  /* .primary-info {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  } */
+}
