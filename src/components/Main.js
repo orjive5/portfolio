@@ -93,13 +93,6 @@ const Main = () => {
                 />
                 <h2>React</h2>
               </div>
-              <div className="skill-cell">
-                <img
-                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
-                  alt=""
-                />
-                <h2>React</h2>
-              </div>
             </div>
           </div>
           <div className="skills-card backend-skills">
