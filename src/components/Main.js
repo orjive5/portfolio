@@ -95,10 +95,10 @@ const Main = () => {
               </div>
               <div className="skill-cell">
                 <img
-                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg"
-                  alt="TailwindCSS"
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+                  alt=""
                 />
-                <h2>TailwindCSS</h2>
+                <h2>React</h2>
               </div>
             </div>
           </div>
