@@ -96,7 +96,7 @@ const Main = () => {
               <div className="skill-cell">
                 <img
                   src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg"
-                  alt=""
+                  alt="TailwindCSS"
                 />
                 <h2>TailwindCSS</h2>
               </div>
