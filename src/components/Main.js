@@ -98,7 +98,7 @@ const Main = () => {
                   src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg"
                   alt=""
                 />
-                <h2>TailwindCSS</h2>
+                <h2>Tailwind</h2>
               </div>
             </div>
           </div>
