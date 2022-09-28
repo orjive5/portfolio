@@ -4,7 +4,7 @@ import Project from './Project';
 import QualionBlogScreenshot from '../assets/qualion-blog.png';
 import MemoryGameScreenshot from '../assets/memory-game.png';
 import FindACharacterScreenshot from '../assets/find-a-character.png';
-import WeatherAppScreenshot from '../assets/weather-app.png';
+import CurrencyConverterScreenshot from '../assets/currency-converter.png';
 import Icon from '@mdi/react';
 import { mdiLinkedin, mdiGithub, mdiInstagram, mdiGmail, mdiCellphone } from '@mdi/js';
 import { ContactUs } from './ContactUs';
@@ -39,6 +39,13 @@ const Main = () => {
           code="https://github.com/orjive5/qualion-new"
         />
         <Project
+          screenshot={CurrencyConverterScreenshot}
+          name="Currency Converter"
+          description="Currency converter app developed with ReactJS and TailwindCSS."
+          demo="https://preeminent-tarsier-55e78f.netlify.app/"
+          code="https://github.com/orjive5/currency-converter"
+        />
+        <Project
           screenshot={MemoryGameScreenshot}
           name="Memory Game"
           description="Art inspired memory game developed with ReactJS."
@@ -51,13 +58,6 @@ const Main = () => {
           description="Find a Character game developed with ReactJS and Firebase."
           demo="https://orjive5.github.io/A-Photo-Tagging-App/"
           code="https://github.com/orjive5/A-Photo-Tagging-App"
-        />
-        <Project
-          screenshot={WeatherAppScreenshot}
-          name="Weather App"
-          description="Weather App developed with Vanilla Javascript using OpenWeatherAPI."
-          demo="https://orjive5.github.io/Weather-App/"
-          code="https://github.com/orjive5/Weather-App"
         />
       </div>
       <div className={activeTab === 'Skills' ? 'display-tab display-skills' : 'display-skills'}>
