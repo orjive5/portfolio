@@ -2,7 +2,8 @@ import React, { useState } from 'react';
 import './Main.css';
 import Project from './Project';
 import QualionBlogScreenshot from '../assets/qualion-blog.png';
-import MemoryGameScreenshot from '../assets/memory-game.png';
+// import MemoryGameScreenshot from '../assets/memory-game.png';
+import UrbexScreenshot from '../assets/urbex.png';
 import FindACharacterScreenshot from '../assets/find-a-character.png';
 import CurrencyConverterScreenshot from '../assets/currency-converter.png';
 import Icon from '@mdi/react';
@@ -45,19 +46,22 @@ const Main = () => {
           demo="https://preeminent-tarsier-55e78f.netlify.app/"
           code="https://github.com/orjive5/currency-converter"
         />
-        <Project
-          screenshot={MemoryGameScreenshot}
-          name="Memory Game"
-          description="Art inspired memory game developed with ReactJS."
-          demo="https://orjive5.github.io/Memory-Game/"
-          code="https://github.com/orjive5/Memory-Game"
-        />
+
         <Project
           screenshot={FindACharacterScreenshot}
           name="Find a Character"
           description="Find a Character game developed with ReactJS and Firebase."
           demo="https://orjive5.github.io/A-Photo-Tagging-App/"
           code="https://github.com/orjive5/A-Photo-Tagging-App"
+        />
+        <Project
+          screenshot={UrbexScreenshot}
+          name="UrbEx Social Media App"
+          description="Map based social media app where users can
+          share and review urban exploration sites."
+          demo=""
+          code=""
+          wip={true}
         />
       </div>
       <div className={activeTab === 'Skills' ? 'display-tab display-skills' : 'display-skills'}>
@@ -68,37 +72,37 @@ const Main = () => {
               <div className="skill-cell">
                 <img
                   src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
-                  alt=""
+                  alt="HTML icon"
                 />
                 <h2>HTML5</h2>
               </div>
               <div className="skill-cell">
                 <img
                   src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
-                  alt=""
+                  alt="CSS icon"
                 />
                 <h2>CSS3</h2>
               </div>
               <div className="skill-cell">
                 <img
                   src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
-                  alt=""
+                  alt="JavaScript icon"
                 />
                 <h2>JavaScript</h2>
               </div>
               <div className="skill-cell">
                 <img
                   src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
-                  alt=""
+                  alt="React icon"
                 />
                 <h2>React</h2>
               </div>
               <div className="skill-cell">
                 <img
                   src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg"
-                  alt=""
+                  alt="TailwindCSS icon"
                 />
-                <h2>Tailwind</h2>
+                <h2>TailwindCSS</h2>
               </div>
             </div>
           </div>
@@ -108,7 +112,7 @@ const Main = () => {
               <div className="skill-cell">
                 <img
                   src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
-                  alt=""
+                  alt="Node icon"
                 />
                 <h2>Node</h2>
               </div>
@@ -121,16 +125,9 @@ const Main = () => {
               <div className="skill-cell">
                 <img
                   src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
-                  alt=""
+                  alt="MongoDB icon"
                 />
                 <h2>MongoDB</h2>
-              </div>
-              <div className="skill-cell">
-                <img
-                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg"
-                  alt=""
-                />
-                <h2>Firebase</h2>
               </div>
             </div>
           </div>
@@ -140,7 +137,7 @@ const Main = () => {
               <div className="skill-cell">
                 <img
                   src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
-                  alt=""
+                  alt="Git icon"
                 />
                 <h2>Git</h2>
               </div>
@@ -158,22 +155,22 @@ const Main = () => {
               </div>
               <div className="skill-cell">
                 <img
-                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/webpack/webpack-original.svg"
-                  alt=""
+                  src="https://upload.wikimedia.org/wikipedia/commons/f/f1/Vitejs-logo.svg"
+                  alt="Vite icon"
                 />
-                <h2>Webpack</h2>
+                <h2>Vite</h2>
               </div>
               <div className="skill-cell">
                 <img
                   src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg"
-                  alt=""
+                  alt="Figma icon"
                 />
                 <h2>Figma</h2>
               </div>
               <div className="skill-cell">
                 <img
                   src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg"
-                  alt=""
+                  alt="Linux icon"
                 />
                 <h2>Linux</h2>
               </div>

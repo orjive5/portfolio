@@ -61,6 +61,25 @@
   transition: all 0.3s ease-in-out;
 }
 
+.wip-icon {
+  width: 2rem;
+}
+
+.work-in-progress {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  border: 1px solid #f8efd4;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: wait;
+}
+
+.work-in-progress h1 {
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
 .check-project > button:hover {
   background-color: #f8efd4;
   color: black;
