@@ -2,9 +2,8 @@ import React, { useState } from 'react';
 import './Main.css';
 import Project from './Project';
 import QualionBlogScreenshot from '../assets/qualion-blog.png';
-// import MemoryGameScreenshot from '../assets/memory-game.png';
 import UrbexScreenshot from '../assets/urbex.png';
-import FindACharacterScreenshot from '../assets/find-a-character.png';
+import SpaceTravelCalculatorScreenshot from '../assets/space-travel-calculator.png';
 import CurrencyConverterScreenshot from '../assets/currency-converter.png';
 import Icon from '@mdi/react';
 import { mdiLinkedin, mdiGithub, mdiInstagram, mdiGmail, mdiCellphone } from '@mdi/js';
@@ -40,19 +39,18 @@ const Main = () => {
           code="https://github.com/orjive5/qualion-new"
         />
         <Project
+          screenshot={SpaceTravelCalculatorScreenshot}
+          name="Space Travel Calculator"
+          description="Calculate the time required for interplanetary or interstellar travel. Built with ReactJS and TailwindCSS."
+          demo="https://cheerful-selkie-cf0525.netlify.app/"
+          code="https://github.com/orjive5/space-travel-calculator"
+        />
+        <Project
           screenshot={CurrencyConverterScreenshot}
           name="Currency Converter"
           description="Currency converter app developed with ReactJS and TailwindCSS."
           demo="https://preeminent-tarsier-55e78f.netlify.app/"
           code="https://github.com/orjive5/currency-converter"
-        />
-
-        <Project
-          screenshot={FindACharacterScreenshot}
-          name="Find a Character"
-          description="Find a Character game developed with ReactJS and Firebase."
-          demo="https://orjive5.github.io/A-Photo-Tagging-App/"
-          code="https://github.com/orjive5/A-Photo-Tagging-App"
         />
         <Project
           screenshot={UrbexScreenshot}
