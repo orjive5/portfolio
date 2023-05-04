@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './Main.css';
 import Project from './Project';
-import QualionBlogScreenshot from '../assets/qualion-blog.png';
+import MirProductionScreenshot from '../assets/mir-production.png';
 import UrbexScreenshot from '../assets/urbex.png';
 import SpaceTravelCalculatorScreenshot from '../assets/space-travel-calculator.png';
 import CurrencyConverterScreenshot from '../assets/currency-converter.png';
@@ -32,17 +32,17 @@ const Main = () => {
       <div
         className={activeTab === 'Projects' ? 'display-tab display-projects' : 'display-projects'}>
         <Project
-          screenshot={QualionBlogScreenshot}
-          name="Science News Blog"
-          description="CRUD Blog app developed with MERN stack."
-          demo="https://marvelous-squirrel-227f4a.netlify.app/"
-          code="https://github.com/orjive5/qualion-new"
-        />
-        <Project
           screenshot={SpaceTravelCalculatorScreenshot}
           name="Space Travel Calculator"
           description="Calculate the time required for interplanetary or interstellar travel. Built with ReactJS and TailwindCSS."
           demo="https://cheerful-selkie-cf0525.netlify.app/"
+          code="https://github.com/orjive5/space-travel-calculator"
+        />
+        <Project
+          screenshot={MirProductionScreenshot}
+          name="MirProduction Portfolio"
+          description="Porfolio website for MirProduction. Built with ReactJS and TailwindCSS."
+          demo="https://mirproduction.com/"
           code="https://github.com/orjive5/space-travel-calculator"
         />
         <Project
